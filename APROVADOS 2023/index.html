@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="HarleySouza, ArthurPereira">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lista dos alunos que se dedicaram para passar e fazer parte da nossa família">
+    <meta name="og:title" content="APROVADOS - INFOR 2023">
+    <meta name="og:image" content="">
+    <title>APROVADOS - INFOR 2023</title>
+    <link rel="stylesheet" href="/APROVADOS 2023/css/style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <nav id="nav-header">
+            <ul>
+                <li><a href="/index.html">Início</a></li>
+            </ul>
+        </nav>
+
+        <nav class="nav-mobile" id="nav-mobile">
+            <ul class="nav-list">
+                <li><a class="nav-link" onclick="toggleSidebar()" href="/index.html">Início</a></li>
+            </ul>
+        </nav>
+
+        <div id="mobile-navbar-toggler" class="mobile-navbar-toggler">
+            <button type="button" class="mobile-navbar-toggler__button" onclick="toggleSidebar()">
+                <svg xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 0 24 24" width="36px" fill="#FFFFFF"><path d="M0 0h24v24H0V0z" fill="none"></path><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></svg>
+                    <path d="M0 0h24v24H0V0z" fill="none"></path>
+                    <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
+            </button>
+        </div>
+    </header>
+
+
+<main>
+
+    <h1 class="page__header_title">Aprovados em Informática 2023</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Nota</th>
+            </tr>
+        </thead>
+
+        <tbody id="tabela-aprovados"></tbody>
+    </table>
+
+
+    <div class="message">
+        <h2 class="message__title">Parabéns! Você conseguiu.</h2>
+        <p class="message__text">Ao decorrer desses 3 anos, você irá enfrentar vários trabalhos e desafios que demandam esforço em nossa EEEPMAE.
+            Porém, se você dar o seu melhor em cada um desses desafios, serão os 3 melhores anos da sua vida. <strong>Bem-vindo à Família Infor.</strong>
+        </p>
+            <br>
+            <strong>#GoInfor23</strong>
+    </div>
+
+</main>
+
+<footer>
+    <h4 class="footer">&copy; 2012 INFORMÁTICA | All rights reserved</h4>
+</footer>
+
+<script src="./js/toggleSidebar.js" type="text/javascript" charset="utf-8"></script>
+<script src="./js/loadStudents.js" type="text/javascript" charset="utf-8"></script>
+</body>
